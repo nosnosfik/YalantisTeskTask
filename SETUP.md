@@ -18,5 +18,8 @@ git clone https://github.com/nosnosfik/YalantisTeskTask.git
 `python manage.py makemigrations`
 `python manage.py migrate`
 
++ If needed to use admin panel, create superuser
+`python manage.py createsuperuser`
+
 + Run project
 `python manage.py runserver`
