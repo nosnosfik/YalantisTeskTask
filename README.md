@@ -1,4 +1,4 @@
-#REST API for car park with drivers.
+# REST API for car park with drivers.
 
 Database structure and all endpoints of the application are described below.
 
@@ -14,7 +14,7 @@ and vehicles. And perform some sorting.
 
 ## Endpoint`s
 
-###Driver:
+### Driver:
 ```+ GET /drivers/driver/ - a drivers list
 + GET /drivers/driver/?created_at__gte=10-11-2021 - list of a drivers created after 10-11-2021
 + GET /drivers/driver/?created_at__lte=16-11-2021 - list of a drivers created before 16-11-2021
@@ -23,7 +23,7 @@ and vehicles. And perform some sorting.
 + UPDATE /drivers/driver/<driver_id>/ - update driver's credentials
 + DELETE /drivers/driver/<driver_id>/ - delete driver
 ```
-###Vehicle:
+### Vehicle:
 
 ```+ GET /vehicles/vehicle/ - vehicles list
 + GET /vehicles/vehicle/?with_drivers=yes - list of vehicles with attached driver

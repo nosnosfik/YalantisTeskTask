@@ -1,11 +1,11 @@
 To run on a PC, must be installed:
 [Python 3.10](https://www.python.org/downloads/)
 
-####Clone repository
+#### Clone repository
 
 git clone https://github.com/nosnosfik/YalantisTeskTask.git
 
-####Initial setup
+#### Initial setup
 
 + Create a virtual environment and activate it
 `python -m venv \path\to\create\new\virtual\environment`
